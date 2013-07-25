@@ -12,7 +12,7 @@
   "author": "flynngao",
   "license": "BSD",
   "bin":{
-      "wiki":"./bin/wiki"
+      "wiki":"./bin/wiki.sh"
     },
   "dependencies":{
      "fl-optimist":"*",
