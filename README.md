@@ -8,4 +8,8 @@
 
     wiki "some nerd word"
 
+### language
+
+    wiki -l en | wiki -l zh
+
 ##Enjoy
