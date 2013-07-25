@@ -10,6 +10,6 @@
 
 ### language
 
-    wiki -l en | wiki -l zh
+    wiki -l zh 北京 | wiki -l en USA
 
 ##Enjoy

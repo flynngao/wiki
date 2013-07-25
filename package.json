@@ -1,6 +1,6 @@
 {
   "name": "wikipedia",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,13 @@
   ],
   "author": "flynngao",
   "license": "BSD",
+  "bin":{
+      "wiki":"./bin/wiki"
+    },
   "dependencies":{
      "fl-optimist":"*",
      "cli-color":"*",
-     "request":"*"
+     "request":"*",
+     "cheerio":"*"
   }
 }
