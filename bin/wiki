@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+
+var argv = require('fl-optimist').argv;
+
+var wiki = require('../index.js').wiki
+
+var lang = require('../index.js').lang;
+
+if(argv.l){
+    lang(argv.l);
+}
+
+if(argv._[0]){
+    wiki(argv._[0],lang);
+}
+
+
+
